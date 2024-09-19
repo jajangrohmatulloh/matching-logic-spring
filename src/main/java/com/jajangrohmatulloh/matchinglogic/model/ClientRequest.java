@@ -5,7 +5,7 @@ import java.util.List;
 public class ClientRequest {
 
     private String fullName;
-    private List<String> users;
+    private List<String> DBFullNames;
 
     public String getFullName() {
         return fullName;
@@ -15,11 +15,11 @@ public class ClientRequest {
         this.fullName = fullName;
     }
 
-    public List<String> getUsers() {
-        return users;
+    public List<String> getDBFullNames() {
+        return DBFullNames;
     }
 
-    public void setUsers(List<String> users) {
-        this.users = users;
+    public void setDBFullNames(List<String> DBFullNames) {
+        this.DBFullNames = DBFullNames;
     }
 }
