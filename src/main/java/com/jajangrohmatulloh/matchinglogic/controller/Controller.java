@@ -23,7 +23,7 @@ public class Controller {
         List<String> DBFullNames = request.getDBFullNames();
 
         List<Integer> scores = new ArrayList<>();
-
+        
         for (String DBFullName : DBFullNames) {
             int score = FuzzySearch.ratio(fullName, DBFullName);
             scores.add(score);
